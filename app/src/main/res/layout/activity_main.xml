@@ -15,7 +15,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"/>
+        android:id="@+id/CampoConteo"
+        android:text="0"
+        android:focusable="false"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,11 +25,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_boton_contar"/>
+            android:text="@string/texto_boton_contar"
+            android:id="@+id/BotonContar"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_boton_reiniciar"/>
+            android:text="@string/texto_boton_reiniciar"
+            android:id="@+id/BotonReiniciar"/>
 
     </LinearLayout>
 
